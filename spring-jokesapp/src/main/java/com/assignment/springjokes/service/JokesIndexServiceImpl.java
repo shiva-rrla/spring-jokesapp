@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 @Service
-public class JokesIndexService {
+public class JokesIndexServiceImpl implements JokesIndexService {
 
 	@Autowired
 	private ChuckNorrisQuotes chuckNorrisQuotes;
